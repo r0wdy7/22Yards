@@ -1,0 +1,26 @@
+.connections-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+@media  (max-width:550px) {
+    .connections-container{
+        grid-template-columns: auto;
+    }
+}
+
+.connection-card{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.profile-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}

@@ -1,0 +1,50 @@
+body{
+    padding: 0px;
+}
+
+.network-card{
+    background-color: white;
+    padding: 0px;
+    height: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#eef1f8 60px,#ffffff 20%);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 275px;
+    margin-right: 2px;
+    position: relative;
+}
+.netwrok-card-image{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    border-radius: 37.5px;
+    top: 12.5px;   
+}
+.network-card-info{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delete-recomendation-button{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+}
+.delete-card-transistion{
+    animation: myfirst 1s ;
+  animation-direction: alternate;
+}
+@keyframes myfirst {
+    0% { left: 0px; top: 0px;}
+    100% { left: 1000px; top: 0px;}
+ }

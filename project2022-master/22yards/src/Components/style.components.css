@@ -1,0 +1,29 @@
+/* Loader Css*/
+.loaderContainer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.loader22yardsimage{
+   width: 500px;
+}
+/*Image View Css*/
+.Image-View-modal{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:57px;
+    bottom:0px;
+    left:0px;
+    right: 0px
+}
+.ImageView-close{
+    cursor: pointer;
+    height: 20px;
+}

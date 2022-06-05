@@ -1,0 +1,5 @@
+.left-footer{
+    height:calc(100%-3px);
+    background-color: white;
+    overflow-y: auto;
+}

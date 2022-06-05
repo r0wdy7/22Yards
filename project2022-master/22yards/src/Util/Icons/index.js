@@ -1,0 +1,1 @@
+const DefaultImageURL="https://res.cloudinary.com/du7d2nmbw/image/upload/v1644669407/22YardsLOGO_hvxvsu.png"

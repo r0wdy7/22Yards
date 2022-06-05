@@ -1,0 +1,217 @@
+/* @media (min-width:1021px){
+    .feed-mid-section{
+        display:flex;
+        flex-direction: column;
+        margin-left:22%;
+        margin-right:24%;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+    .add-post-container{
+        position:fixed;
+    
+        margin-top: calc(100vh - 130px);
+    }
+    .add-post-button-styling{
+        z-index: 2;
+        border: 0px;
+        padding-right:15px;
+        padding-left:15px;
+        padding-top:0px;
+        padding-bottom:0px;
+        border-radius: 100px;
+    }
+}
+@media (min-width:650px) and (max-width:1020px){
+    .feed-mid-section{
+        display:flex;
+        flex-direction: column;
+        margin-left:32%;
+        margin-right:1%;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+    .add-post-container{
+        position:fixed;
+        margin-left: 60%;
+        margin-top: calc(100vh - 125px);
+    }
+    .add-post-button-styling{
+        z-index: 2;
+        border: 0px;
+        padding-right:13px;
+        padding-left:13px;
+        padding-top:0px;
+        padding-bottom:0px;
+        border-radius: 100px;
+    }
+}
+@media (max-width:649px){
+    .feed-mid-section{
+        display:flex;
+        margin-left: 0.5%;
+        margin-right:0.5%;
+        flex-direction: column;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+    .add-post-container{
+        position:absolute;
+        right:10px;
+        bottom: 55px;
+        
+    }
+    .add-post-button-styling{
+        z-index: 2;
+        border: 0px;
+        padding-right:10px;
+        padding-left:10px;
+        padding-top:0px;
+        padding-bottom:0px;
+        border-radius: 100px;
+    }
+} */
+
+/* Create New Post Modal Css */
+.Add-New-Post-Modal-Container{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left:0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+.Add-New-Post-Modal-Tab-Desktop{
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+}
+.Add-New-Post-Modal-Mobile{
+    background-color: white;
+    width: 100vw;
+    min-height: 100%;
+}
+
+/* Create New Post Css */
+/* .Add-Post-Scrolled{
+    width: 100%;
+    padding: 5px;
+    overflow-y: auto;
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+    min-height: 36px;
+    max-height: 200px;
+}
+[contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    position: absolute;
+    color: gray;
+    background-color: transparent;
+} */
+.Add-posts-images-container{
+    overflow-x: auto;
+    height: 170px;
+    width: 100%;
+    padding: 8px;
+}
+.Add-posts-image{
+    height: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+.button-To-Delete-Image-From-Add-Post{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+}
+.add-post-profilepic{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.Add-Images-In-AddPost-Button{
+   cursor: pointer;
+}
+/* .Add-Post-Scrolled::selection{
+    border: 0px;
+} */
+.add-post-text-area{
+    width:95%;
+    height:100%;
+    resize: none;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+}
+.add-comment-text-area{
+    width:95%;
+    height:18vh;
+    margin-top:2%;
+
+}
+.add-post-header{
+    display:flex;
+}
+.add-post-body{
+    height:25vh
+}
+.add-comment-body{
+    height:25vh;
+}
+
+.feed-mid-section::-webkit-scrollbar {
+    display: none;
+}
+.post-card{
+    
+    position: relative;
+    
+}
+.post-card-user-handle{
+   font-size: 17px;
+}
+.post-card-para{
+    font-size: 13px;
+}
+.post-card-footer{
+     display:flex;
+     justify-content: space-around;
+}
+.feed-cards{
+    border-radius: 10px;
+    margin-bottom:10px;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+.feed-main-card-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+}
+.post-card-body-container{
+    margin-left: 70px;
+}
+.feed-content-card-footer-icon{
+    height: 20px;
+    cursor: pointer;
+}
+.horizontal-line{
+    border-top: 1px solid #73716b;
+    margin-bottom: 10px;
+}

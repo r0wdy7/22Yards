@@ -1,0 +1,190 @@
+/* @media (min-width:1021px){
+    .profile-mid-section{
+        display:flex;
+        flex-direction: column;
+        margin-left:22%;
+        margin-right:24%;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+    .profile-main-btn1{
+        margin-left: 0%;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        width: 15%;
+    }
+}
+@media (min-width:650px) and (max-width:1020px){
+    .profile-mid-section{
+        display:flex;
+        flex-direction: column;
+        margin-left:32%;
+        margin-right:1%;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+}
+@media (max-width:649px){
+    .profile-mid-section{
+        display:flex;
+        margin-left: 0.5%;
+        margin-right:0.5%;
+        flex-direction: column;
+        height:calc(100vh - 69px);
+        overflow-y:scroll;
+    }
+    .profile-main-card-img-btn{
+        margin-top: -15%;
+    }
+    .profile-main-btn1{
+        margin-left: 0%;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        width: 40%;
+    }
+} */
+.profile-mid-section{
+    display:flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    width: 100%;
+}
+.profile-mid-section::-webkit-scrollbar {
+    display: none;
+}
+.profile-mid-section{
+    padding: 0%;
+}
+.profile-main-card{
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    position: relative;
+}
+.profile-main-card-bg-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 1px solid black;
+}
+.profile-main-card-profile-img{
+   width: 160px;
+   height: 160px;
+   padding: 0%;
+   border-radius: 50%;
+   position: absolute;
+   left: 5px;
+   top: 180px;
+}
+.profile-main-card-body{
+   padding: 15px;
+   padding-top: 95px;
+}
+
+.profile-main-card-body > p,h4{
+  margin:0%
+}
+.profile-main-btn-container{
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin-top: 1.5%;
+}
+
+.profile-main-container{
+    padding: 0%;
+}
+.profile-main-card-bg-img-btn{
+    padding: 0%;
+    border-radius: 10px;
+}
+.profile-main-card-img-btn{
+    padding: 0%;
+    border-radius: 50%;
+    margin-top: -10%;
+    margin-left: 3%;
+    width: 160px;
+    height: 160px;
+}
+button{
+    border: 0px;
+}
+.profile-links-container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    flex-shrink: 0;
+    background-color: lightslategrey;
+}
+.profile-links{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    margin: 0px;
+}
+.only-visible-to-you{
+    color: gray;
+    font-size: 12px;
+}
+.editing-bio-div{
+  /* outline: none;
+  border: none; */
+  /* resize: vertical; */
+  /* border-bottom: 1px solid black; */
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+  min-height: 40px;
+  border: 0px; 
+  border-bottom: 1px solid black;
+  padding: 2px;
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+.editing-container{
+    margin: 10px;
+}
+.editprofile-main-card-profile-img{     
+   width: 130px;
+   height: 130px;
+   padding: 0%;
+   border-radius: 50%;
+   
+}
+.edit-image-icon{
+    height: 30px;
+    margin-left: 5px;
+}
+
+.ipl-team-logo-div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+   
+    padding: 10px;
+}
+
+.ipl-team-logo-image{
+    height: 75px;
+    width: 75px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

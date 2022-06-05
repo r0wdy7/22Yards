@@ -1,0 +1,35 @@
+/* .full-page{
+    background-image: url('https://res.cloudinary.com/dhz8n0ka8/image/upload/v1641640237/WhatsApp_Image_2022-01-08_at_4.37.11_PM_qnwkxy.jpg');
+    background-size: cover;
+} */
+body{
+    /* background-color:  #e0e6e2; */
+    background-color: #e5e7eb;
+}
+.header{
+    height:65px;
+}
+.routing-page{
+    display: flex;
+    position: fixed;
+    top:65px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.Add-post-button{
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: #e63737;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding-bottom: 5px;
+}
+.Add-post-button-hover{
+    display: none;
+}
+

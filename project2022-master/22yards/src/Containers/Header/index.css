@@ -1,0 +1,124 @@
+.nav-bar{
+    position:fixed;
+    width:100%;
+    top: 0;
+    background-color: #e63737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 60px;
+}
+.nav-bar1{
+    position:fixed;
+    top: 0;
+    width:100%;
+    /* background-color: #e0e6e2; */
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 70px;
+}
+.logo-navbar1{
+    height: 70px;
+}
+.logo-navbar{
+    height: 50px;
+}
+.logo-nav-bar-mobile{
+    display: none;
+}
+.nav-bar-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+.nav-bar-item{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-bar-item:hover{
+    /* opacity: 0.4; */
+    color: #242b36;
+}
+.btn-in-mobile{
+    display: none;
+}
+.nav-bar-seach-icon{
+    display: none;
+}
+.nav-bar-list-2{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+.nav-bar-logout{
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+@media screen and (max-width: 801px){
+    .nav-bar-list{
+        display: none;
+    }
+    .nav-bar-list-mobile{
+        list-style-type: none;
+        position: fixed;
+        left: 0px;
+        background: #242b36;
+        top: 60px;
+        height: 100%;
+        padding: 0px;
+        z-index: 10;
+    }
+    .btn-in-mobile{
+        display: block;
+        cursor: pointer;
+        height: 30px;
+       
+    }
+    .logo-nav-bar-mobile{
+        display: block;
+        height: 50px;
+        position: absolute;
+        top: 5px;
+        left: 41%;
+    }
+    .nav-bar-item-mobile-link{
+        text-decoration: none;
+    }
+    .logo-navbar{
+        display: none;
+    }
+    .nav-bar-item-mobile{
+      padding: 15px;
+      padding-right: 80px;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .nav-bar-seach-icon{
+        display: block;
+        height: 30px;
+        cursor: pointer;   
+    }
+}
+
+.saveTheProfile{
+    height: 40px;
+    cursor: pointer;
+}
